@@ -1,3 +1,4 @@
+const _ = require('lodash');
 exports.createPages = async ({ actions, graphql }) => {
     const { createPage } = actions
     const {
