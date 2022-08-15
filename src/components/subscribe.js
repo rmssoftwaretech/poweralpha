@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import addToMailchimp from "gatsby-plugin-mailchimp";
-import styles from '../css/subscribe.module.css';
+import * as styles from '../css/subscribe.module.css';
 
 class Subscribe extends Component  {
     state = {

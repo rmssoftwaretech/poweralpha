@@ -21,17 +21,26 @@
     "bulma": "^0.9.4",
     "gatsby": "^4.20.0",
     "gatsby-image": "^3.11.0",
+    "gatsby-plugin-disqus": "^1.2.4",
+    "gatsby-plugin-google-analytics": "^4.20.0",
+    "gatsby-plugin-mailchimp": "^5.2.2",
+    "gatsby-plugin-manifest": "^4.20.0",
     "gatsby-plugin-mdx": "^3.20.0",
+    "gatsby-plugin-react-helmet": "^5.20.0",
+    "gatsby-plugin-robots-txt": "^1.7.1",
     "gatsby-plugin-sass": "^5.20.0",
     "gatsby-plugin-sharp": "^4.20.0",
+    "gatsby-plugin-sitemap": "^5.20.0",
     "gatsby-source-filesystem": "^4.20.0",
     "gatsby-transformer-sharp": "^4.20.0",
     "jquery": "^3.6.0",
     "material-design-kit": "^2.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
     "react-icons": "^4.4.0",
-    "sass": "^1.54.4"
+    "sass": "^1.54.4",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "prettier": "^2.7.1"
