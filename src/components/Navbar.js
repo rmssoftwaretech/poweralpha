@@ -3,9 +3,25 @@ import { Link } from "gatsby"
 import * as styles from "../css/navbar.module.css"
 import { FaAlignRight } from "react-icons/fa"
 import links from "../constants/links"
-import logo from "../images/logo.png"
+import Img from "gatsby-image";
+import { graphql, useStaticQuery } from "gatsby";
+
+
+export const getImage = graphql`
+{
+    file(relativePath: { eq: "logo.png" }) {
+        childImageSharp {
+            fluid {
+                ...GatsbyImageSharpFluid_withWebp
+            }
+        }
+    }
+}
+`
+
 
 const Navbar = () => {
+  const response = useStaticQuery(getImage);
   const [isOpen, setNav] = useState(false)
   const toggleNav = () => {
     setNav(isOpen => !isOpen)
@@ -17,7 +33,13 @@ const Navbar = () => {
       <div className={styles.navCenter}>
         {" "}
         <div className={styles.navHeader}>
-          <img src={logo} className={styles.brandLogo} alt="thewebdev logo" />
+          <Link to="/">
+            <Img
+              fluid={response.file.childImageSharp.fluid}
+              className={styles.brandLogo}
+              alt="poweralpha"
+            />
+          </Link>
           <button type="button" className={styles.logoBtn} onClick={toggleNav}>
             <FaAlignRight className={styles.logoIcon} />
           </button>{" "}

@@ -5,7 +5,7 @@ const ContactComp = () => {
         <section className={styles.contact}>
             <h3>Contact Us</h3>
             <div className={styles.center}>
-                <form action="https://formspree.io/mbjkjzll" method="POST" className={styles.form}>
+                <form action="https://formspree.io/f/xlevepyo" method="POST" className={styles.form}>
                     <div>
                         <label htmlFor="name">name</label>
                         <input

@@ -96,7 +96,7 @@ export default () => {
                     <FaSortAmountDown className={styles.logoIcon} />
                 </button>
                     <Menu open={open} />
-                <h2 className={styles.mobileHeader}>My TWD</h2>
+                <h2 className={styles.mobileHeader}>PowerAlpha</h2>
                 <button type="button" className={styles.logoBtn} onClick={toggleRightMenu} >
                     <FaSortAmountUp className={styles.logoIcon} />
                 </button>

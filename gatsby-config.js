@@ -4,20 +4,20 @@ module.exports = {
     author: `RMSSoftwareTech`,
     description: `Learn to build Power Apps Model Driven, Canvas Apps, Power Automate, PCF and more..`,
     twitterUsername: "@rmssoftwaretech",
-    image:'/thewebdev.jpg',
+    image:'/poweralpha.jpeg',
     siteUrl: `https://poweralpha.tech/`,
     keywords: [
-      "Nabendu",
-      "Biswas",
-      "UI Lead",
-      "GatsbyJs",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "ReactJs",
-      "React developer",
-      "Front-end Engineer",
-      "GraphQL"
+      "RMSSoftwareTech",
+      "Power Platform",
+      "Model Driven Apps",
+      "PowerApps",
+      "Canvas Apps",
+      "Power Pages",
+      "Power Automate",
+      "PCF",
+      "Low Code Power Apps",
+      "Low-Code No-Code",
+      "PowerApps Components Framework"
     ],
     social: {
       twitter: `rmssoftwaretech`,
@@ -48,16 +48,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-          host: 'https://thewebdev.tech/',
-          sitemap: 'https://thewebdev.tech/sitemap.xml',
+          host: 'https://poweralpha.tech/',
+          sitemap: 'https://poweralpha.tech/sitemap/sitemap-index.xml',
           policy: [{ userAgent: '*', allow: '/' }]
       }
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-          name: `The Web Dev`,
-          short_name: `TWD`,
+          name: `PowerApps Alpha`,
+          short_name: `PowerAlpha`,
           start_url: `/`,
           background_color: `#ffffff`,
           theme_color: `#4ABCF8`,
@@ -68,7 +68,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-          trackingId: "UA-160644716-1",
+          trackingId: "UA-237895995-1",
       }
     },
     {
@@ -80,7 +80,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-mailchimp",
       options: {
-          endpoint: "https://blog.us4.list-manage.com/subscribe/post?u=5c156d7649897240e9c994d38&amp;id=67f40851e0",
+          endpoint: "https://gmail.us18.list-manage.com/subscribe/post?u=0aa6172fea654b4e22f4b66ce&amp;id=536cf18265&amp;f_id=00f31de7f0",
       },
     },
   ]
