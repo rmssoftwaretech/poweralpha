@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledRightMenu = styled.nav`
     display: block;
-    background: #add8e6;
+    background: #b7d6f3;
     height: 100%;
     overflow-y: scroll;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(150%)'};

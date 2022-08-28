@@ -90,7 +90,7 @@ export default () => {
 
     return (
         <Layout>
-            <SEO title="Learn to build Power Apps - Model Driven, Canvas Apps, Power Pages, Power Automate and more." />
+            <SEO title="Learn to built web-apps in React, Gatsby, React-native" />
             <div className={styles.mobileMenu}>
                 <button type="button" className={styles.logoBtn} onClick={toggleLeftMenu} >
                     <FaSortAmountDown className={styles.logoIcon} />

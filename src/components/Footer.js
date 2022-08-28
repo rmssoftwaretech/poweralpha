@@ -5,43 +5,30 @@ import socialIcons from "../constants/social-icons"
 import { Link } from "gatsby"
 
 const Footer = () => {
-  return (
+    return (
     <footer className={styles.footer}>
-      {" "}
-      <div className={styles.links}>
-        {" "}
+        <div className={styles.links}>
         {links.map((item, index) => {
-          return (
+            return (
             <Link key={index} to={item.path}>
-              {item.text}{" "}
+                {item.text}
             </Link>
-          )
-        })}{" "}
-      </div>{" "}
-      <div className={styles.icons}>
-        {" "}
+            )
+        })}
+        </div>
+        <div className={styles.icons}>
         {socialIcons.map((item, index) => {
-          return (
-            <a
-              key={index}
-              href={item.url}
-              target="_blank"
-              rel="noopener
-
-noreferrer"
-            >
-              {item.icon}
-            </a>
-          )
-        })}{" "}
-      </div>{" "}
-      <div className={styles.copyright}>
-        {" "}
+            return (
+            <a key={index} href={item.url} target="_blank" rel="noopener noreferrer">{item.icon}</a>
+            )
+        })}
+        </div>
+        <div className={styles.copyright}>
         copyright &copy; The RMS Software Tech, {new Date().getFullYear()} all rights
         reserved{" "}
-      </div>{" "}
+      </div>
     </footer>
-  )
+    )
 }
 
-export default Footer
+export default Footer;
